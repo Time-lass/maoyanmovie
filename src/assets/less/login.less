@@ -1,0 +1,116 @@
+.login{
+    .head{
+        background-color:#df2d2d;
+        height: 1.35rem;
+        color: #fff;
+        /deep/.van-icon{
+            color: #fff;
+        }
+        /deep/.van-nav-bar__left{
+            padding: 0 0.3rem;
+        }
+        /deep/.van-icon-arrow-left::before{
+            font-size: 25px;
+        }
+        /deep/.van-nav-bar__title{
+            color: #fff;
+        }
+    }
+    .login_Logo{
+        width: 100%;
+        height: 108.5px;
+        // margin-top: 1px;
+        position: relative;
+        // padding:25px 117px ;
+        .maoyan{
+            width: 141px;
+            height: 58.5px;
+            background:url(../images/logo.png) no-repeat;
+            background-size: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -29.25px;
+            margin-left: -75px;
+        }
+    }
+    .login_method{
+        height: 40px;
+        .method{
+            height: 36px;
+            padding: 0 10px;
+            border-bottom: 4px solid #d6d6d6;
+            position: relative;
+            li{
+                width: 50%;
+                height: 36px;
+                line-height: 36px;
+                text-align: center;
+                font-size: 12.5px;
+                float: left;
+            }
+            .down{
+                background-color: #e5e5e5;
+            }
+            .box{
+                width: 100%;
+                height: 4px;
+                position: absolute;
+                top: 36px;
+                left: 0;
+                .select{
+                    width: 50%;
+                    height: 4px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background-color: #ffc300;
+                    -webkit-transition: left .2s ease-in;
+                }
+                .toright{
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                }
+            }
+        }
+    }
+    .account{
+        display: none !important;
+    }
+    .handset{
+        display: none !important;
+    }
+    .van-button__text{
+        font-size: 15px;
+    }
+    .subline{
+        height: 13px;
+        margin: 10px 15px;
+        li{
+            float: left;
+            a{
+                line-height: 1;
+                font-size: 13px;
+                color: #FE8C00;
+            }
+        }
+        .right{
+            float: right;
+        }
+    }
+    .register-box{
+        padding: 15px 0;
+      }
+    
+      .register-btn{
+        padding: 0 15px;
+      }
+    
+      .register-title{
+        font-size: 24px;
+        font-weight: bold;
+        padding: 0 15px;
+        margin-bottom: 50px;
+      }
+}
